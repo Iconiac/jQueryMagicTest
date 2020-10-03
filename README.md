@@ -1,0 +1,2 @@
+# jQueryMagicTest
+First jQuery Test
