@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+	<head>
+        <title>Hello World</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+           <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+           <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+           <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+        
+        <link type="text/css" href="style.css" rel="stylesheet"/> 
+	</head>
+
+	<body>
+		<h1 class="insetInner" id="Kopfzeile" data-role ="header">Nico</h1>
+        
+        <ul class="inset" data-role="listview" data-inset="true">
+            <li><a href="https://www.sideshowtoy.com/collectibles/magic-the-gathering-nicol-bolas-prime-1-studio-9032411/">Magic: The Gathering</a></li>
+            <li>YuGiOH</li>
+            <li>Pokémon</li>
+            
+        </ul>
+        
+        <ul class="inset" data-role="listview" data-inset="true">
+            <button id="hallo" data-inset="true">Hallo</button>
+            <button id="bye">Bye</button>
+        </ul>
+        
+        
+        <p id="toChange" style="text-align:center">Hier steht ein wenig Text. Zumindest noch!</p>
+        
+        <script type="text/javascript">
+            //alert(document.getElementById("Kopfzeile").innerHTML);
+            
+            document.getElementById("hallo").onclick = function()
+            {
+                document.getElementById("Kopfzeile").innerHTML = "Ich bin " + document.getElementById("Kopfzeile").innerHTML + " und ein geiler Typ!";
+            }
+            
+            document.getElementById("bye").onclick = function()
+            {
+                document.getElementById("toChange").innerHTML = "<button>Was geht ab?</button>";
+            }
+            
+            
+            
+        
+        </script>
+        
+        
+        <div class="inset" data-role="collapsible" data-inset="true" data-theme="e">
+				<h3>1</h3>
+				<ul data-role="listview">
+					<li><a href="#">A</a></li>
+					<li><a href="#">B</a></li>
+					<li><a href="#">C</a></li>
+				</ul>
+			</div>
+        
+        
+        
+        
+	</body>
+
+</html>

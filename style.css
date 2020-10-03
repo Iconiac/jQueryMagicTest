@@ -1,0 +1,26 @@
+.kreis {
+    border-radius: 90px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 30px;
+}
+
+#kreis1{
+    background-color: red;
+}
+
+#kreis2{
+    background-color: green;
+}
+
+#kreis3{
+    background-color: blue;
+}
+
+
+.inset{
+    padding-right: 5%;
+    padding-left:5%;
+}
